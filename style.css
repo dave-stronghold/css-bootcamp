@@ -1,0 +1,204 @@
+/* #1de592 */
+
+.greenbox {
+  background-color: #1de592;
+  width: 400px;
+  padding: 60px 40px;
+  margin: 20px auto;
+  font-family: urbanist;
+  border-radius: 8px;
+}
+.greenbox h2 {
+  font-size: 40px;
+  width: 20px;
+  margin: 0;
+}
+.greenbox p {
+  font-size: 14px;
+  font-weight: 500;
+}
+.greenbox button {
+  margin-top: 10px;
+  padding: 10px 30px;
+  font-size: 16px;
+  border: none !important;
+  border-radius: 40px;
+  font-family: urbanist;
+  font-weight: 600;
+}
+
+/* greenbox end */
+.profilecontainer {
+  width: 480px;
+  margin: 0;
+  margin: 20px auto;
+  padding: 0%;
+}
+.profilecards {
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 8px 8px 0px 0px;
+  border-bottom: none;
+  padding: 10px 30px 0px 30px;
+  box-sizing: border-box;
+  font-family: urbanist;
+}
+.profilecards h4 {
+  font-size: 24px;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.profilecards p {
+  width: 90%;
+  color: grey;
+}
+.profilecards img {
+  width: 50px;
+  border-radius: 100%;
+  margin: 20px 40px;
+}
+
+.footer {
+  border: 1px solid lightgray;
+  border-radius: 0 0 8px 8px;
+}
+.profilecontainer .footer p {
+  font-family: urbanist;
+  cursor: pointer;
+  font-weight: 600;
+  margin-left: 30px;
+  font-size: 16px;
+  width: max-content;
+  color: #0077ff;
+}
+
+.card {
+  width: 480px;
+  border: 1px solid lightgray;
+  border-radius: 12px;
+  margin: 20px auto;
+  font-family: urbanist;
+}
+
+.header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 7px 7px 0 0;
+}
+.card .cardbody {
+  /* background-color: antiquewhite; */
+  margin: 30px 20px;
+}
+
+.cardbody img{
+  margin-bottom: -4px;
+}
+.cardbody h3 {
+  max-width: max-content;
+  color: #656565;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  display: inline;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.cardbody h4{
+  margin-top:20px;
+  margin-bottom: 8px;
+  width: 90%;
+  font-size: 28px;
+  font-weight: 500;
+}
+.cardbody p{
+  font-size: 20px;
+  width: 90%;
+  color: #656565;
+  line-height: 150%;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.cardbody button{
+  margin-top: 10px;
+  padding: 10px 30px;
+  font-size: 20px;
+  /* border: none !important; */
+  border-radius: 8px;
+  font-family: urbanist;
+  font-weight: 600;
+  color:#0077ff ;
+  background-color: white;
+  border: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.login{
+  width: 480px;
+  margin: 40px auto;
+  padding: 40px 0;
+  text-align: center;
+  font-family: urbanist;
+  border: 1px solid lightgray;
+}
+
+.login img{
+  width: 300px;
+  margin-bottom: -20px;
+}
+input{
+  display: block;
+  width: 60%;
+  padding: 18px 20px;
+  margin: 12px auto;
+  border:1px solid lightgray;
+  border-radius: 16px;
+  font-family: urbanist;
+  font-weight: 500;
+  font-size: 16px;
+  color: #222222;
+}
+input::placeholder{
+  color: #3f3f3f;
+  font-weight: 600;
+}
+.login h3{
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.login button{
+  margin-top: 20px;
+  margin-bottom:20px ;
+  padding: 16px 40px;
+  font-size: 18px;
+  width: 60%;
+  border: none !important;
+  border-radius: 40px;
+  font-family: urbanist;
+  background-color: #000;
+  color: white;
+  font-weight: 600;
+}
+
+.underline{
+  text-decoration: #222 underline;
+  cursor: pointer;
+  color: #222;
+  font-weight: 500;
+}
+
+.login p{
+  font-weight: 500;
+  color: #656565;
+}
+.dark-gray{
+  color: #222222;
+}
+.caption{
+  margin:30px auto ;
+  font-size: 14px;
+  width: 70%;
+}
+br{
+  line-height: 30px;
+}
